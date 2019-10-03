@@ -1,6 +1,79 @@
-.h-logo{
-    size: 2px;
+.air-img{
+    width: 28px;
+    margin-left: 75px;
 }
-body {
+.button{
+    margin-right: 10px;
+    margin-top: -10px;
+    height: 45px;
+}
+.start {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(215,39,50);
+    border: 1px rgba(215,39,50) solid;
+    border-radius: 5px;
+    padding: 7px;
+    padding-right: 16px;
+    padding-left: 16px; 
+    margin-right: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     
+
+}
+.cash {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-right: 15px;
+    color: rgba(57, 57, 57);
+    
+}
+.price {
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 25px;
+    color: rgba(57, 57, 57)
+}
+.header {
+display: flex;
+justify-content: space-between; 
+width: 100%;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+.menu{
+    background: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(https://photofiles.alphacoders.com/411/41145.jpg);
+    height: 645px; 
+}
+.data {
+    height: 495px;
+    width: 460px;
+    margin-top: 75px;
+    margin-right: 75px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px; 
+}
+.data_info{
+    margin: 20px;
+}
+.h1{
+    font-size: 45px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+.h2{
+    font-size: 20px;
+}
+.location{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
 }
